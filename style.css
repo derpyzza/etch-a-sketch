@@ -1,0 +1,29 @@
+
+.main{
+    display: flex;
+    height: 720px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.canvas {
+    height: 500px;
+    flex-basis: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 15px solid #222;
+    /* border-radius: 15px; */
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    width: 500px;
+}
+
+.col {
+    /* border: 1px solid green; */
+}
